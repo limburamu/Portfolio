@@ -1,6 +1,6 @@
-import "./HeroImgStyles.css";
+import "../styles/HeroImgStyles.css";
 
-import React from 'react'
+import React from 'react';
 import JokerImg from "../assets/joker.jpg"
 import { Link } from "react-router-dom";
 
