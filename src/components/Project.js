@@ -1,8 +1,7 @@
 import React from 'react';
 
-
-import HeroImg2 from '../components/HeroImg2';
-import PricingCard from '../components/PricingCard';
+import HeroImg2 from './HeroImg2';
+import PricingCard from './PricingCard';
 
 
 const Project = () => {

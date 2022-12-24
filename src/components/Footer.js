@@ -27,7 +27,7 @@ const Footer = () => {
 
             <div className="right">
               <h4>About Myself</h4>
-              <p>Hello this is me Ramu Samsohang. IT student in Gomendra Multiple College Birtamode, Jhapa.</p>
+              <p>Hello this is me Ramu Samsohang. Studying BCA in Gomendra Multiple College.</p>
               <div className="social">
               <FaFacebook size={30} style={{color: "fff", marginRight: "1rem" }} />
               <FaTwitter size={20} style={{color: "fff", marginRight: "2rem" }} />
