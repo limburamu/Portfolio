@@ -1,14 +1,12 @@
 import React from 'react';
 
-import HeroImg2 from './HeroImg2';
-import PricingCard from './PricingCard';
+import Image2 from './Image2';
 
 
 const Project = () => {
   return (
     <div>
-      <HeroImg2 heading="PROJECTS." text="Some of my most recent works" />
-      <PricingCard />
+      <Image2 heading="PROJECTS." text="Some of my most recent works" />
     </div>
   )
 }

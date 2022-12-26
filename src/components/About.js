@@ -1,6 +1,5 @@
 import React from "react";
 
-// import HeroImg2 from "./HeroImg2";
 import AboutContent from "./AboutContent";
 
 const About = () => {

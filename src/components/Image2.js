@@ -1,8 +1,8 @@
-import "../styles/HeroImg2Styles.css";
+import "../styles/Image2Styles.css";
 
 import React, { Component } from 'react';
 
-class HeroImg2 extends Component {
+class Image2 extends Component {
     render() {
         return (
             <div className="hero-img">
@@ -11,8 +11,8 @@ class HeroImg2 extends Component {
                     <p>{this.props.text}</p>
                 </div>
             </div>
-          );
+        );
     }
 }
 
-export default HeroImg2
+export default Image2

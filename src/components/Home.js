@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/HeroImgStyles.css";
+import "../styles/ImageStyles.css";
 
 import Typical from 'react-typical';
 

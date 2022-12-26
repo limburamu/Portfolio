@@ -1,27 +1,25 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import "../styles/FormStyles.css";
 
 const Form = () => {
-  const myFunction = () => {
-    alert("Message sent");
-  }
-  return (
-    <div>
+    return (
+      <div>
         <form action="https://formspree.io/f/xlekroay" method="POST">
-            <label>Username</label>
-            <input type="text" name="username" required></input>
-            <label>Email</label>
-            <input type="email" name="email" required></input>
-            <label>Phone</label>
-            <input type="number" nam="phone" required></input>
-            <label>Message</label>
-            <textarea rows="6" placeholder="Type your message" name="message" required/>
-            <button className="btn" onClick={myFunction()}>Submit</button>
+          <label>Username</label>
+          <input type="text" name="username" required></input>
+          <label>Email</label>
+          <input type="email" name="email" required></input>
+          <label>Phone</label>
+          <input type="number" nam="phone" required></input>
+          <label>Message</label>
+          <textarea rows="6" placeholder="Type your message" name="message" required />
+          <button className="btn">Submit</button>
         </form>
-    </div>
-  )
-}
+      </div>
+    )
+  }
+
 
 
 
